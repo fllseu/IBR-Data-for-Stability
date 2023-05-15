@@ -1,5 +1,11 @@
 ## 20-Hz/80-Hz inverter-based resource dynamic event data 
-The set of event data were created from electromagnetic transient (EMT) simulation testbeds. 
+The sets of event data were created from electromagnetic transient (EMT) simulation testbeds. 
+case1_zeropower.mat: when the solar PV's exporting power level is zero.
+case1_low.mat: the solar PV's exporting power level is 10%.
+case1_high.mat: the solar PV's exporting power level is 100%. 
+PLOT_sim.pdf is the live script file showing the simulation plots from the three data files. The dynamic event triggers 20-Hz oscillation in RMS voltage, current and power measurements, and 20-Hz/80-Hz in the phase voltage and current measurements. 
+
+
 Details of the testbed can be found in the following paper:
 https://ieeexplore.ieee.org/abstract/document/9893333
 
